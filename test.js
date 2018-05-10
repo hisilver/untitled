@@ -21,10 +21,10 @@ function myFunction() {
     /*******************/
     var stringA="hello world nihao";
     var positions=new Array();
-    var pos=stringA.indexOf("o");
+    var pos=stringA.indexOf("l");
     while(pos>-1){
         positions.push(pos);
-        pos=stringA.indexOf("o",pos+1);
+        pos=stringA.indexOf("l",pos+1);
     }
     document.write(positions);
 
